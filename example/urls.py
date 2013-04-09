@@ -6,6 +6,6 @@ admin.autodiscover()
 
 
 urlpatterns = patterns('',
-    url(r'^contact/', include("contact_form.urls", namespace="contact_form")),
+    url(r'^contact/', include("contact.urls", namespace="contact_form")),
     url(r'^admin/', include(admin.site.urls)),
 )

@@ -14,3 +14,4 @@ dist/*
 # test database
 example.db
 
+.DS_Store
