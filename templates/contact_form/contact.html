@@ -8,6 +8,7 @@
 {% endblock header %}
 
 {% block content %}
+<p>Send an email to <a href="mailto:simongriffee@gmail.com" title="Gmail email until txd host fixes email issues.">simongriffee@gmail.com</a>.</p>
 <!--
 <form action="" method="post">{% csrf_token %}
     {# {{ form.as_p }} #}
@@ -44,7 +45,7 @@
         {% endif %}
     </div>
     <input type="submit" value="Send" tabindex="4" />
-</form>
+</form>-->
 
 {% include "contact_form/address.html" %}
 
@@ -52,9 +53,9 @@
 <h3>Not sure exactly what you need?</h3>
 <p>Download this <a href="/files/projectbrief.zip" title="Hypertexthero project brief."><strong>project brief</strong></a> to
 help us find out <span class="small">(zipped plain text file, 2kb).</span></p>
-</div> brief end -->
+</div>
 
-<p>Send an email to <a href="mailto:simongriffee@gmail.com" title="Gmail email until txd host fixes email issues.">simongriffee@gmail.com</a>.</p>
+
 {% endblock %}
 
 {% block footer %}{% endblock footer %}
